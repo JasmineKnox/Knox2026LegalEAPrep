@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "title": "Legal EA: Casefile",
+    "version": "Version 1",
+    "syllabus": "QCAA Legal Studies 2025 v1.3 (January 2026)",
+    "eaFocus": "Unit 4 Topic 1: Human rights + Topic 3: Human rights in Australian contexts",
+    "objectives": ["Comprehend", "Analyse", "Evaluate"]
+  },
+  "rapidRecall": [
+    {
+      "id": "rr01",
+      "topic": "foundations",
+      "prompt": "Which description best defines human rights?",
+      "options": [
+        "Privileges granted only to citizens by Parliament",
+        "Basic rights and freedoms that belong to people regardless of status",
+        "Rules created only by international courts",
+        "Rights that exist only when written into a national constitution"
+      ],
+      "answer": 1,
+      "explanation": "Human rights are basic rights and freedoms that apply to people regardless of characteristics such as nationality, race, sex, religion or other status.",
+      "upgrade": "EA language: Human rights are fundamental rights and freedoms recognised as belonging to all people.",
+      "sourceTag": "Unit 4 Topic 1"
+    },
+    {
+      "id": "rr02",
+      "topic": "foundations",
+      "prompt": "In international law, what is a treaty?",
+      "options": [
+        "A non-binding newspaper statement",
+        "A formal agreement between states that can create legal obligations",
+        "A decision made by an Australian tribunal",
+        "A rule made by a local council"
+      ],
+      "answer": 1,
+      "explanation": "Treaties are formal international agreements between states. They can create international legal obligations for states that consent to be bound.",
+      "upgrade": "EA language: A treaty is a formal international agreement through which states may assume legal obligations.",
+      "sourceTag": "Unit 4 Topic 1"
+    },
+    {
+      "id": "rr03",
+      "topic": "foundations",
+      "prompt": "What does state sovereignty mean?",
+      "options": [
+        "A state must obey every decision of another country",
+        "A state has authority to govern itself and make its own laws",
+        "Only international organisations can make laws for a state",
+        "A state has no obligations under international law"
+      ],
+      "answer": 1,
+      "explanation": "Sovereignty is the authority of a state to govern itself. It does not mean that international obligations are irrelevant; states can voluntarily accept obligations through international law.",
+      "upgrade": "EA language: Sovereignty refers to the legal authority and independence of a state to govern its own affairs.",
+      "sourceTag": "Unit 4 Topic 1"
+    },
+    {
+      "id": "rr04",
+      "topic": "foundations",
+      "prompt": "A treaty involving many states is best described as...",
+      "options": ["bilateral", "multilateral", "domestic", "retrospective"],
+      "answer": 1,
+      "explanation": "A multilateral agreement involves three or more states. A bilateral agreement involves two states.",
+      "upgrade": "Precision check: bilateral = two states; multilateral = three or more states.",
+      "sourceTag": "Unit 4 Topic 1"
+    },
+    {
+      "id": "rr05",
+      "topic": "treaties",
+      "prompt": "What is ratification?",
+      "options": [
+        "The first informal discussion about a possible treaty",
+        "The international act by which a state formally consents to be bound",
+        "A decision by JSCOT that automatically creates Australian law",
+        "A court striking down a treaty"
+      ],
+      "answer": 1,
+      "explanation": "Ratification is the international act by which Australia formally confirms its consent to be bound by a treaty after the required domestic processes are completed.",
+      "upgrade": "Accuracy lock: ratification creates the international commitment; it is not the same thing as domestic implementation.",
+      "sourceTag": "Unit 4 Topic 1"
+    },
+    {
+      "id": "rr06",
+      "topic": "foundations",
+      "prompt": "Which instrument is the broad foundational declaration of modern international human rights?",
+      "options": ["UDHR", "ICCPR", "ICESCR", "CEDAW"],
+      "answer": 0,
+      "explanation": "The Universal Declaration of Human Rights is the broad foundational human-rights declaration. The ICCPR and ICESCR are later covenants that develop particular categories of rights.",
+      "upgrade": "EA language: The UDHR provides a broad foundational statement of human dignity and human rights.",
+      "sourceTag": "International Bill of Human Rights"
+    },
+    {
+      "id": "rr07",
+      "topic": "instruments",
+      "prompt": "Which instrument is most closely associated with civil and political rights such as fair-trial rights, political participation and freedoms?",
+      "options": ["ICESCR", "ICCPR", "CEDAW", "CRPD"],
+      "answer": 1,
+      "explanation": "The ICCPR protects civil and political rights, including freedoms, political participation, courts and criminal-justice protections.",
+      "upgrade": "Memory hook: ICCPR = civil freedoms + political participation + courts/criminal justice.",
+      "sourceTag": "International Bill of Human Rights"
+    },
+    {
+      "id": "rr08",
+      "topic": "instruments",
+      "prompt": "Which instrument is most closely associated with rights relating to work, health, education and an adequate standard of living?",
+      "options": ["ICCPR", "ICESCR", "ICERD", "CAT"],
+      "answer": 1,
+      "explanation": "The ICESCR focuses on economic, social and cultural rights, including work, health, education and adequate living standards.",
+      "upgrade": "Memory hook: ICESCR = economic + social + cultural rights.",
+      "sourceTag": "International Bill of Human Rights"
+    },
+    {
+      "id": "rr09",
+      "topic": "instruments",
+      "prompt": "CEDAW primarily requires states to address...",
+      "options": [
+        "racial discrimination",
+        "discrimination against women",
+        "torture in detention",
+        "disability access only"
+      ],
+      "answer": 1,
+      "explanation": "CEDAW is the Convention on the Elimination of All Forms of Discrimination against Women. It requires legislative and practical measures to eliminate discrimination and promote substantive equality.",
+      "upgrade": "Feature language: states must take legislative and practical measures to eliminate discrimination against women.",
+      "sourceTag": "Principal treaties"
+    },
+    {
+      "id": "rr10",
+      "topic": "instruments",
+      "prompt": "Which is a recognised feature of ICERD?",
+      "options": [
+        "It prevents states from taking any special measures",
+        "It permits special measures aimed at addressing substantive racial inequality",
+        "It deals only with voting rights",
+        "It applies only during armed conflict"
+      ],
+      "answer": 1,
+      "explanation": "ICERD permits special or concrete measures designed to address existing or historical inequality so disadvantaged groups can enjoy rights equally.",
+      "upgrade": "EA pattern: identify the feature, then explain what it does and why it matters.",
+      "sourceTag": "2025 EA-style ICERD practice"
+    },
+    {
+      "id": "rr11",
+      "topic": "instruments",
+      "prompt": "Which treaty places accessibility, equality, legal capacity and full participation at the centre of disability rights?",
+      "options": ["CRPD", "CEDAW", "CAT", "ICERD"],
+      "answer": 0,
+      "explanation": "The Convention on the Rights of Persons with Disabilities protects equal enjoyment of rights by people with disabilities and emphasises accessibility and participation.",
+      "upgrade": "Precision: CRPD = equal enjoyment of rights + accessibility + participation.",
+      "sourceTag": "Principal treaties"
+    },
+    {
+      "id": "rr12",
+      "topic": "instruments",
+      "prompt": "Which statement best describes CAT?",
+      "options": [
+        "It permits torture during a national emergency",
+        "It prohibits torture; emergency or war does not justify torture",
+        "It is primarily a trade agreement",
+        "It creates the Australian court hierarchy"
+      ],
+      "answer": 1,
+      "explanation": "CAT is the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment. The prohibition on torture is absolute.",
+      "upgrade": "Legal precision: the prohibition on torture is not displaced by war or emergency.",
+      "sourceTag": "Principal treaties"
+    },
+    {
+      "id": "rr13",
+      "topic": "treaties",
+      "prompt": "What is the best distinction between signature and ratification?",
+      "options": [
+        "They have exactly the same legal effect",
+        "Signature shows support/intention; ratification formally creates the international commitment",
+        "Ratification happens before negotiation",
+        "Signature automatically makes the treaty enforceable Australian law"
+      ],
+      "answer": 1,
+      "explanation": "Signature usually shows support and willingness to continue the treaty-making process. Ratification is the later international act formally expressing consent to be bound.",
+      "upgrade": "Say it cleanly: signature is not ratification.",
+      "sourceTag": "Treaty process"
+    },
+    {
+      "id": "rr14",
+      "topic": "treaties",
+      "prompt": "What does JSCOT do?",
+      "options": [
+        "Ratifies treaties on behalf of Australia",
+        "Reviews proposed treaty action and reports/recommends to Parliament",
+        "Determines criminal guilt",
+        "Writes every Statement of Compatibility"
+      ],
+      "answer": 1,
+      "explanation": "The Joint Standing Committee on Treaties reviews proposed treaty action and reports to Parliament. Its role is scrutiny and recommendation; it does not ratify treaties.",
+      "upgrade": "Accuracy lock: JSCOT scrutinises and recommends. It does not ratify.",
+      "sourceTag": "Treaty process"
+    },
+    {
+      "id": "rr15",
+      "topic": "treaties",
+      "prompt": "Which statement about treaties and Australian domestic law is most accurate?",
+      "options": [
+        "A ratified treaty automatically becomes enforceable Australian statute law",
+        "A treaty can create international obligations, but domestic legislation may be required for enforceable Australian legal effect",
+        "JSCOT automatically converts treaties into Acts",
+        "Only state parliaments can implement treaties"
+      ],
+      "answer": 1,
+      "explanation": "International obligation and domestic enforceability are different. Parliament may need to pass or amend legislation so treaty obligations operate as Australian law.",
+      "upgrade": "EA sentence: Ratification does not automatically incorporate treaty obligations into Australian domestic law.",
+      "sourceTag": "Treaty process"
+    },
+    {
+      "id": "rr16",
+      "topic": "australia",
+      "prompt": "What is the main role of the Parliamentary Joint Committee on Human Rights (PJCHR)?",
+      "options": [
+        "To ratify treaties",
+        "To examine Commonwealth Bills and legislative instruments for compatibility with human rights and report to Parliament",
+        "To prosecute human-rights offences",
+        "To invalidate legislation automatically"
+      ],
+      "answer": 1,
+      "explanation": "The PJCHR examines Commonwealth Bills and legislative instruments for human-rights compatibility and reports to both Houses of Parliament.",
+      "upgrade": "Do not confuse: JSCOT = treaties; PJCHR = human-rights scrutiny of Bills/instruments.",
+      "sourceTag": "Human Rights (Parliamentary Scrutiny) Act"
+    },
+    {
+      "id": "rr17",
+      "topic": "australia",
+      "prompt": "A Statement of Compatibility is best described as...",
+      "options": [
+        "A binding High Court judgment",
+        "The Minister/sponsor's opinion about whether a Bill or relevant instrument is compatible with human rights",
+        "A treaty ratification document",
+        "A public referendum"
+      ],
+      "answer": 1,
+      "explanation": "A Statement of Compatibility records the Minister or sponsor's assessment/opinion about human-rights compatibility. It supports scrutiny but is not the final word on validity or compatibility.",
+      "upgrade": "Precision: it is an expression of opinion, not a veto or final legal determination.",
+      "sourceTag": "Parliamentary scrutiny"
+    },
+    {
+      "id": "rr18",
+      "topic": "australia",
+      "prompt": "What happens if the PJCHR raises human-rights concerns about a Bill?",
+      "options": [
+        "The Bill is automatically invalid",
+        "The Bill can never be debated",
+        "Parliament may still debate, amend, delay, pass or reject it",
+        "JSCOT must decide the outcome"
+      ],
+      "answer": 2,
+      "explanation": "Human-rights scrutiny promotes transparency and accountability but does not automatically prevent Parliament from passing legislation.",
+      "upgrade": "Legal effect matters: the PJCHR reports; Parliament decides.",
+      "sourceTag": "Parliamentary scrutiny"
+    },
+    {
+      "id": "rr19",
+      "topic": "australia",
+      "prompt": "Which is an example of a common-law right identified in the 2025 Legal Studies EA marking guide?",
+      "options": ["Right to silence", "Right to a federal bill of rights", "Right to free university", "Right to treaty ratification"],
+      "answer": 0,
+      "explanation": "The 2025 EA marking guide used the right to remain silent as an example of a protected common-law right in Queensland criminal-law contexts.",
+      "upgrade": "Explain the effect: the right protects against compelled self-incrimination.",
+      "sourceTag": "Past EA practice"
+    },
+    {
+      "id": "rr20",
+      "topic": "australia",
+      "prompt": "Double jeopardy is most closely associated with which protection?",
+      "options": [
+        "A person should not be tried or punished again for the same offence after acquittal or conviction, subject to legal exceptions",
+        "Every civil dispute must be heard twice",
+        "Every Bill must pass two referenda",
+        "A treaty must be signed by two states"
+      ],
+      "answer": 0,
+      "explanation": "Double jeopardy protects against being tried or punished again for the same offence after an acquittal or conviction, subject to the law governing exceptions.",
+      "upgrade": "Use it as a legal-protection concept, not as a general fairness slogan.",
+      "sourceTag": "Past EA practice"
+    },
+    {
+      "id": "rr21",
+      "topic": "australia",
+      "prompt": "Which description best captures a role of the media in human-rights protection?",
+      "options": [
+        "The media can investigate, inform the public and increase accountability around human-rights issues",
+        "The media can invalidate legislation",
+        "The media ratifies international treaties",
+        "The media replaces the courts"
+      ],
+      "answer": 0,
+      "explanation": "Media can bring human-rights issues to public attention through reporting and investigation, supporting advocacy and accountability.",
+      "upgrade": "Explain the mechanism: reporting can expose threats or violations and increase public scrutiny of decision-makers.",
+      "sourceTag": "Unit 4 Topic 3"
+    },
+    {
+      "id": "rr22",
+      "topic": "australia",
+      "prompt": "The 2025 EA sample response used which two rights as examples promoted by the Disability Discrimination Act 1992 (Cth)?",
+      "options": [
+        "Education and employment",
+        "Property and taxation",
+        "Treaty-making and defence",
+        "Voting and jury service only"
+      ],
+      "answer": 0,
+      "explanation": "The QCAA sample response identified education and employment and explained how disability discrimination law protects equal access in those areas.",
+      "upgrade": "Short-response habit: identify the right, then describe how the law promotes or protects it.",
+      "sourceTag": "Past EA practice"
+    },
+    {
+      "id": "rr23",
+      "topic": "analysis",
+      "prompt": "In QCAA Legal Studies, what is a viewpoint?",
+      "options": [
+        "A list of stakeholders with no stated position",
+        "An attitude, opinion or perspective about the legal issue",
+        "A random quotation from a source",
+        "The final recommendation"
+      ],
+      "answer": 1,
+      "explanation": "A viewpoint is a position about a legal issue. Analysis then examines the viewpoint and traces its consequence or impact.",
+      "upgrade": "Do not write 'parents are a viewpoint'. Parents are stakeholders; the viewpoint is what they believe about the issue.",
+      "sourceTag": "Syllabus objective 3"
+    },
+    {
+      "id": "rr24",
+      "topic": "analysis",
+      "prompt": "Which response best demonstrates a consequence of a viewpoint?",
+      "options": [
+        "The stakeholder is a business owner.",
+        "The source is from 2024.",
+        "If the restriction is broadened, more peaceful protesters may be prevented from participating, increasing the burden on political expression.",
+        "I disagree with the law."
+      ],
+      "answer": 2,
+      "explanation": "A consequence identifies an impact flowing from the viewpoint or approach. It should explain what changes and who is affected.",
+      "upgrade": "Sentence stem: A consequence of this viewpoint is...",
+      "sourceTag": "Syllabus objective 3"
+    },
+    {
+      "id": "rr25",
+      "topic": "evaluation",
+      "prompt": "What makes an option a legal alternative in Legal Studies?",
+      "options": [
+        "It is any personal preference",
+        "It is a legal option that responds to the viewpoints and consequences found in the analysis",
+        "It is always 'do nothing'",
+        "It is a consequence rather than a response"
+      ],
+      "answer": 1,
+      "explanation": "Legal alternatives are legal options that respond to the issue revealed by the analysis, such as new/amended legislation, changed legal processes or a new regulatory mechanism.",
+      "upgrade": "Strong alternatives have an actor, a legal change and a clear mechanism.",
+      "sourceTag": "Syllabus objective 4"
+    },
+    {
+      "id": "rr26",
+      "topic": "evaluation",
+      "prompt": "Which is one of the syllabus legal-criteria categories used to justify a recommendation?",
+      "options": [
+        "Whether the option is personally popular",
+        "Just and/or equitable outcomes",
+        "Whether it sounds strict",
+        "Whether the source is the longest"
+      ],
+      "answer": 1,
+      "explanation": "The current syllabus identifies just/equitable outcomes, relevant elements of the rule of law, and balancing individual rights with protection of society as legal-criteria categories.",
+      "upgrade": "Criteria are reasoning tools. Name the criterion and explain why the recommendation performs better against it.",
+      "sourceTag": "Syllabus objective 4"
+    },
+    {
+      "id": "rr27",
+      "topic": "evaluation",
+      "prompt": "Which statement best describes an implication?",
+      "options": [
+        "The definition of a treaty",
+        "An effect or consequence that may result from the recommendation",
+        "A second viewpoint",
+        "A source citation"
+      ],
+      "answer": 1,
+      "explanation": "Implications are effects that may result from the recommendation. They can be legal, practical, economic, social, rights-based or unequal in impact.",
+      "upgrade": "Good implications are plausible and connected to implementation, not generic predictions.",
+      "sourceTag": "Syllabus objective 4"
+    },
+    {
+      "id": "rr28",
+      "topic": "australia",
+      "prompt": "Which statement best describes the external affairs power in s 51(xxix) of the Australian Constitution?",
+      "options": [
+        "It prevents the Commonwealth from dealing with international matters",
+        "It can support Commonwealth legislation concerning external affairs, including implementation of genuine treaty obligations",
+        "It gives local councils control over treaties",
+        "It allows Parliament to determine criminal guilt"
+      ],
+      "answer": 1,
+      "explanation": "The external affairs power is a Commonwealth legislative power relating to external affairs. It can support laws implementing genuine international treaty obligations.",
+      "upgrade": "EA use: connect the constitutional source to its legal effect, then to human-rights protection or Commonwealth power.",
+      "sourceTag": "Unit 4 Topic 1"
+    },
+    {
+      "id": "rr29",
+      "topic": "australia",
+      "prompt": "Which statement best describes the implied freedom of political communication?",
+      "options": [
+        "It is an unlimited personal right to say anything",
+        "It is a constitutional limit on laws that unjustifiably burden political communication",
+        "It is a treaty made by the UN",
+        "It applies only to private contracts"
+      ],
+      "answer": 1,
+      "explanation": "The implied freedom is not a free-standing personal right. It operates as a limit on legislative and executive power that unjustifiably burdens political communication.",
+      "upgrade": "Precision matters: constitutional limit, not unlimited personal speech right.",
+      "sourceTag": "Human rights in Australian contexts"
+    },
+    {
+      "id": "rr30",
+      "topic": "australia",
+      "prompt": "Why does Chapter III separation of judicial power matter for human rights and fair process?",
+      "options": [
+        "It lets Ministers declare named people guilty",
+        "It helps preserve the institutional role and independence of courts in determining and punishing criminal guilt",
+        "It gives JSCOT judicial power",
+        "It removes the presumption of innocence"
+      ],
+      "answer": 1,
+      "explanation": "Chapter III protects the constitutional role of courts. Parliament can create offences and penalties, but adjudging and punishing criminal guilt is a judicial function.",
+      "upgrade": "Human-rights link: independent judicial decision-making supports rule of law, fair trial and liberty.",
+      "sourceTag": "Human rights in Australian contexts"
+    }
+  ],
+  "sortSets": [
+    {
+      "id": "sort-rights",
+      "title": "Sort the rights",
+      "instruction": "Place each right under the best matching instrument.",
+      "categories": ["UDHR", "ICCPR", "ICESCR"],
+      "items": [
+        {"text": "Freedom of opinion and expression", "category": "ICCPR"},
+        {"text": "Right to education", "category": "ICESCR"},
+        {"text": "Right to a nationality", "category": "UDHR"},
+        {"text": "Right to vote and take part in public affairs", "category": "ICCPR"},
+        {"text": "Right to the highest attainable standard of health", "category": "ICESCR"},
+        {"text": "Right to seek and enjoy asylum from persecution", "category": "UDHR"},
+        {"text": "Right to a fair and public hearing", "category": "ICCPR"},
+        {"text": "Right to work", "category": "ICESCR"},
+        {"text": "Everyone is born free and equal in dignity and rights", "category": "UDHR"}
+      ],
+      "explanation": "Use the broad patterns: UDHR = foundational dignity and broad rights; ICCPR = civil/political freedoms and justice; ICESCR = work, health, education, welfare and culture."
+    },
+    {
+      "id": "sort-institutions",
+      "title": "Who does what?",
+      "instruction": "Match each legal role to the institution or actor that performs it.",
+      "categories": ["JSCOT", "PJCHR", "Parliament", "Executive"],
+      "items": [
+        {"text": "Reviews proposed treaty action and reports/recommends", "category": "JSCOT"},
+        {"text": "Examines Commonwealth Bills and legislative instruments for human-rights compatibility", "category": "PJCHR"},
+        {"text": "Debates, amends, passes or rejects Bills", "category": "Parliament"},
+        {"text": "Takes formal treaty action such as signature and ratification after approval processes", "category": "Executive"},
+        {"text": "Does not itself ratify a treaty", "category": "JSCOT"},
+        {"text": "Reports human-rights concerns to both Houses", "category": "PJCHR"},
+        {"text": "May pass domestic implementing legislation", "category": "Parliament"},
+        {"text": "Foreign affairs ministers and Federal Executive Council are involved in formal treaty action", "category": "Executive"}
+      ],
+      "explanation": "The high-value distinction is legal effect: JSCOT and PJCHR scrutinise and report; Parliament legislates; the Executive conducts formal treaty action."
+    },
+    {
+      "id": "sort-ea",
+      "title": "Sort the EA moves",
+      "instruction": "Place each move under ANALYSE or EVALUATE.",
+      "categories": ["ANALYSE", "EVALUATE"],
+      "items": [
+        {"text": "Determine the nature and scope", "category": "ANALYSE"},
+        {"text": "Examine viewpoint 1 and its consequences", "category": "ANALYSE"},
+        {"text": "Use stimulus evidence to support reasoning", "category": "ANALYSE"},
+        {"text": "Examine viewpoint 2 and its consequences", "category": "ANALYSE"},
+        {"text": "Present legal alternative 1", "category": "EVALUATE"},
+        {"text": "Present legal alternative 2", "category": "EVALUATE"},
+        {"text": "Make and justify a recommendation using legal criteria", "category": "EVALUATE"},
+        {"text": "Discuss a plausible implication", "category": "EVALUATE"}
+      ],
+      "explanation": "Analysis works out the legal situation. Evaluation uses that analysis to compare responses, make a recommendation, justify it legally and discuss implications."
+    }
+  ],
+  "treatyProcess": {
+    "title": "Build the treaty pathway",
+    "instruction": "Put the steps into the most defensible classroom sequence. Focus on the actor, the legal effect and the difference between international obligation and domestic enforceability.",
+    "steps": [
+      {"id": "tp1", "label": "Mandate / decision to negotiate", "detail": "The Australian Government decides whether to negotiate or join treaty-making."},
+      {"id": "tp2", "label": "Treaty text negotiated and finalised", "detail": "States and relevant agencies negotiate and settle the international text."},
+      {"id": "tp3", "label": "Executive approval for treaty action", "detail": "Formal treaty actions require executive approval processes."},
+      {"id": "tp4", "label": "Signature", "detail": "Australia signals support/intention to continue the process; signature is not ratification."},
+      {"id": "tp5", "label": "Tabling in Parliament + National Interest Analysis", "detail": "The proposed treaty action is tabled for parliamentary scrutiny."},
+      {"id": "tp6", "label": "JSCOT review", "detail": "JSCOT reviews the proposed treaty action and reports/recommends."},
+      {"id": "tp7", "label": "Domestic law checked or changed where required", "detail": "Any legislation needed for domestic implementation is passed or amended."},
+      {"id": "tp8", "label": "Ratification or accession", "detail": "Australia formally consents to be bound at international law."},
+      {"id": "tp9", "label": "Treaty enters into force for Australia", "detail": "The treaty becomes binding internationally according to its terms."}
+    ],
+    "locks": [
+      "Signature is not ratification.",
+      "Ratification creates the international legal commitment.",
+      "A treaty does not automatically become enforceable Australian domestic law; legislation may be required."
+    ],
+    "myths": [
+      {"statement": "If Australia ratifies a treaty, every treaty rule automatically becomes enforceable Australian statute law.", "truth": false, "feedback": "False. International obligation and domestic enforceability are distinct; implementing legislation may be required."},
+      {"statement": "JSCOT scrutinises proposed treaty action but does not itself ratify treaties.", "truth": true, "feedback": "True. JSCOT reviews and reports/recommends; formal treaty action is undertaken by the Executive."},
+      {"statement": "Signature and ratification always have the same legal effect.", "truth": false, "feedback": "False. Signature generally shows support/intention; ratification is the formal international consent to be bound."}
+    ]
+  },
+  "bossBattle": {
+    "title": "Port Calder: Protest Zone",
+    "subtitle": "Mini unseen-stimulus simulation",
+    "fictionNotice": "Fictional classroom stimulus. Port Calder, the Bill and all stakeholder statements below are simulated. The legal reasoning skills are aligned to QCAA Legal Studies EA objectives.",
+    "scenario": "The Queensland Government is considering a fictional Port Calder Public Access Bill after several demonstrations blocked roads leading to Port Calder's port precinct. The Bill would allow police to create temporary protest exclusion zones of up to 500 metres around nominated transport routes for up to 14 days during a declared 'major disruption event'.",
+    "legalBackground": "For this simulation, assume Queensland law recognises peaceful assembly but permits necessary and reasonable restrictions aimed at public safety, public order and protecting the rights and freedoms of others.",
+    "stimuli": [
+      {
+        "id": "S1",
+        "label": "SIMULATED BILL SUMMARY",
+        "text": "The proposed power would allow a 500 m exclusion zone for up to 14 days. Police must publish the zone, but the Bill contains no express requirement for written reasons or independent review."
+      },
+      {
+        "id": "S2",
+        "label": "MINISTER FOR TRANSPORT — VIEWPOINT",
+        "text": "Recent road blockades delayed freight and an ambulance. The community needs a clear power that lets police keep critical transport routes open before a disruption becomes dangerous."
+      },
+      {
+        "id": "S3",
+        "label": "PORT CALDER RIGHTS CENTRE — VIEWPOINT",
+        "text": "A 500 m zone lasting 14 days could capture peaceful demonstrations that never obstruct a road. Without written reasons or review, the power is broader than needed and risks discouraging lawful protest."
+      },
+      {
+        "id": "S4",
+        "label": "PORT TRADERS ASSOCIATION — VIEWPOINT",
+        "text": "Businesses support measures that keep access routes open, but a predictable narrower zone with clear notice would be easier to comply with and less disruptive to workers, customers and peaceful events."
+      },
+      {
+        "id": "S5",
+        "label": "YOUTH CLIMATE COLLECTIVE — VIEWPOINT",
+        "text": "The port is the focus of our environmental campaign. A broad exclusion zone could push protesters out of sight and reduce the impact of political communication even when the protest remains peaceful."
+      }
+    ],
+    "stages": [
+      {
+        "id": "nature",
+        "skill": "Nature + scope",
+        "type": "single",
+        "prompt": "Which statement best frames the legal issue?",
+        "options": [
+          "Whether protests are annoying to commuters.",
+          "Whether the proposed exclusion-zone power appropriately balances peaceful assembly and political participation with public safety, order and the rights of road users and businesses.",
+          "Whether every protest should be banned.",
+          "Whether Port Calder should close its port."
+        ],
+        "correct": [1],
+        "feedback": "Strong nature and scope identifies the legal tension, the proposed legal power, affected rights/interests and the people likely to be affected."
+      },
+      {
+        "id": "view1",
+        "skill": "Viewpoint 1 + consequence",
+        "type": "single",
+        "prompt": "Which analysis best represents the case supporting stronger restrictions?",
+        "options": [
+          "The Minister supports the Bill because protests are unpopular.",
+          "The Minister argues that stronger powers are needed to protect safety and transport access; a consequence may be fewer dangerous blockages, although more protest activity would be restricted.",
+          "The Rights Centre supports a total ban on protest.",
+          "Businesses oppose every restriction because all regulation is ineffective."
+        ],
+        "correct": [1],
+        "feedback": "A viewpoint is more than naming a stakeholder. Explain the position, connect it to the issue and trace a consequence."
+      },
+      {
+        "id": "view2",
+        "skill": "Viewpoint 2 + consequence",
+        "type": "single",
+        "prompt": "Which analysis best represents the competing rights-based viewpoint?",
+        "options": [
+          "The Rights Centre argues the power may be broader than necessary; a consequence is that peaceful protesters may be deterred even where they create little or no transport risk.",
+          "The Rights Centre says all laws are invalid.",
+          "The Youth Climate Collective wants Parliament abolished.",
+          "The Minister says protest has no legal relevance."
+        ],
+        "correct": [0],
+        "feedback": "The strongest competing viewpoint identifies the concern and the affected right, then explains the practical or rights-based consequence."
+      },
+      {
+        "id": "evidence",
+        "skill": "Use of evidence",
+        "type": "multi",
+        "required": 2,
+        "prompt": "Choose the TWO sources that most directly support the argument that the current Bill is broader than necessary.",
+        "options": ["S1 — Bill summary", "S2 — Minister", "S3 — Rights Centre", "S4 — Traders Association", "S5 — Youth Climate Collective"],
+        "correct": [0,2],
+        "feedback": "S1 supplies the scope of the power and missing safeguards; S3 directly argues that the 500 m / 14-day power may capture peaceful protest and lacks written reasons or review. Other sources may be useful elsewhere, but these are the most direct pair for this proposition."
+      },
+      {
+        "id": "alternatives",
+        "skill": "Legal alternatives",
+        "type": "multi",
+        "required": 2,
+        "prompt": "Choose the TWO strongest legal alternatives that respond directly to the consequences identified in the stimuli.",
+        "options": [
+          "Amend the Bill: smaller zones, shorter maximum duration, written reasons and a review mechanism.",
+          "Create a permit / designated access process that protects critical routes while preserving a visible protest location.",
+          "Ban all protests throughout Port Calder for 12 months.",
+          "Ignore the issue and remove all existing police powers."
+        ],
+        "correct": [0,1],
+        "feedback": "Strong legal alternatives respond to the problem revealed by the analysis and specify a legal mechanism. Blanket bans or abandoning all lawful controls do not respond proportionately to the evidence."
+      },
+      {
+        "id": "criteria",
+        "skill": "Legal criteria",
+        "type": "multi",
+        "required": 2,
+        "prompt": "Choose TWO highly relevant legal criteria for evaluating a recommendation in this scenario.",
+        "options": [
+          "Balancing individual rights with protection of society",
+          "Relevant elements of the rule of law, including clarity and review/accountability",
+          "Retribution",
+          "Rehabilitation",
+          "Just and equitable outcomes"
+        ],
+        "correctAny": [0,1,4],
+        "feedback": "Rights/protection, rule-of-law elements and just/equitable outcomes are all strong criteria here. Retribution and rehabilitation are punishment/sentencing concepts and do not fit this legal situation."
+      },
+      {
+        "id": "recommendation",
+        "skill": "Recommendation",
+        "type": "single",
+        "prompt": "Which recommendation is BEST supported by this particular stimulus set?",
+        "options": [
+          "Pass the Bill unchanged because public order always overrides protest rights.",
+          "Amend the Bill to use narrower, shorter exclusion zones with written reasons and review, while preserving a safe visible protest option.",
+          "Ban all demonstrations near every road in Queensland.",
+          "Make no legal response possible even when an ambulance route is blocked."
+        ],
+        "correct": [1],
+        "feedback": "This recommendation responds to the safety concern while also addressing breadth, clarity, accountability and rights-based consequences. Other positions can sometimes be argued, but this option is the best synthesis of this stimulus set."
+      },
+      {
+        "id": "implication",
+        "skill": "Implication",
+        "type": "single",
+        "prompt": "Which is the strongest plausible implication of that recommendation?",
+        "options": [
+          "Police would face some additional administrative work giving reasons and operating review safeguards, but the scheme may become clearer and more accountable for both police and protesters.",
+          "All human-rights disputes would permanently disappear.",
+          "No business would ever experience disruption again.",
+          "The High Court would automatically approve every protest."
+        ],
+        "correct": [0],
+        "feedback": "Good implications are realistic effects of implementation. They can acknowledge both costs and benefits rather than claiming certainty."
+      }
+    ],
+    "skillMap": [
+      "Accurate nature and scope",
+      "Viewpoint 1 + consequence",
+      "Viewpoint 2 + consequence",
+      "Effective stimulus use",
+      "Two legal alternatives",
+      "Recommendation + legal criteria",
+      "Plausible implication"
+    ]
+  }
+}
